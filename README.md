@@ -15,6 +15,12 @@ Authentication helps us provide a more secure and personalized experience for al
 
 ---
 
+## 🚀 Getting Started (For Users)
+
+Visit https://web-dev-project-omega.vercel.app/
+
+---
+
 ## 🚀 Getting Started (For Developers)
 
 To run the project locally:
@@ -29,6 +35,3 @@ pnpm dev
 bun dev
 
 
-## 🚀 Getting Started (For Users)
-
-Visit https://web-dev-project-omega.vercel.app/
