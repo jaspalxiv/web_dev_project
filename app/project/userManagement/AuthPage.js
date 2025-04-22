@@ -6,8 +6,8 @@ import { login, logout } from "/lib/auth";
 
 // Login Component
 const Login = ({ onSignupClick, onLoginSuccess }) => {
-    const [email, setEmail] = useState("jaspalxiv@gmail.com");
-    const [password, setPassword] = useState("741852963Js@");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     const handleLogin = async () => {
         const user = await login(email, password);
@@ -58,10 +58,10 @@ const Login = ({ onSignupClick, onLoginSuccess }) => {
 
 // Signup Component
 const Signup = ({ onBackToLogin, onLoginSuccess }) => {
-    const [firstName, setFirstName] = useState("jasopal");
-    const [lastName, setLastName] = useState("singh");
-    const [email, setEmail] = useState("jaspalxiv@gmail.com");
-    const [password, setPassword] = useState("741852963Js@");
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     const handleSignUp = async () => {
         const { data, error: signUpError } = await supaBase.auth.signUp({
